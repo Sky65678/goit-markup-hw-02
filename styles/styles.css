@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 ul {
@@ -25,6 +27,10 @@ a {
   overflow: hidden;
 }
 
+address {
+  font-style: normal;
+}
+
 /* ===============================================
 
 =======================HEADER==================== */
@@ -32,14 +38,14 @@ a {
 .header-logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: #4d5ae5;
 }
 
 .header-logo-color {
-  color: var(--iris);
+  color: #2e2f42;
 }
 
 .header-menu-link {
@@ -47,14 +53,14 @@ a {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 .header-contact-link {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
 }
 
 /* ===============================================
@@ -62,7 +68,7 @@ a {
 =======================HERO==================== */
 
 .hero {
-  background: var(--navy-blue);
+  background-color: #2e2f42;
 }
 
 .hero-title {
@@ -71,15 +77,17 @@ a {
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--white);
+  color: #ffffff;
 }
 
 .hero-buy-btn {
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 
 /* ===============================================
@@ -109,6 +117,7 @@ a {
 =======================Our Team==================== */
 
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -117,6 +126,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list {
 }
@@ -138,6 +148,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  background-color: #ffffff;
 }
 
 /* ===============================================
@@ -166,6 +177,7 @@ a {
   text-align: center;
   color: #2e2f42;
 }
+
 .portfolio-item-text {
   font-size: 16px;
   line-height: 1.5;
@@ -181,4 +193,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer {
+  background-color: #2e2f42;
 }
