@@ -113,11 +113,11 @@ span {
 }
 
 .hero-buy-btn:hover {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
 }
 
 .hero-buy-btn:focus {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
 }
 /* ===============================================
 
@@ -147,6 +147,7 @@ span {
 =======================Our Team==================== */
 
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -158,6 +159,7 @@ span {
   text-transform: capitalize;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-item {
   background-color: #f4f4fd;
