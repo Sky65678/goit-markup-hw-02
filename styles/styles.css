@@ -31,6 +31,9 @@ address {
   font-style: normal;
 }
 
+button {
+  cursor: pointer;
+}
 /* ===============================================
 
 =======================HEADER==================== */
@@ -56,11 +59,31 @@ address {
   color: #2e2f42;
 }
 
+.header-menu-link:hover {
+  color: #404bbf;
+}
+
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
 .header-contact-link {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.header-contact-link:hover {
+  color: #404bbf;
+}
+
+.header-contact-link:focus {
+  color: #404bbf;
+}
+
+.header-address {
+  font-style: normal;
 }
 
 /* ===============================================
@@ -81,7 +104,6 @@ address {
 }
 
 .hero-buy-btn {
-  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -90,11 +112,19 @@ address {
   font-family: "Roboto", sans-serif;
 }
 
+.hero-buy-btn:hover {
+  background-color: #4d5ae5;
+}
+
+.hero-buy-btn:focus {
+  background-color: #4d5ae5;
+}
 /* ===============================================
 
 =======================features==================== */
 
 .features {
+  background-color: #ffffff;
 }
 .features-list {
 }
