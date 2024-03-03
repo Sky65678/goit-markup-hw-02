@@ -1,5 +1,5 @@
 body {
-  font-family: "Raleway", "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -33,6 +33,10 @@ address {
 button {
   cursor: pointer;
 }
+
+span {
+  color: #f4f4fd;
+}
 /* ===============================================
 
 =======================HEADER==================== */
@@ -44,6 +48,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
 }
 
 .header-logo-color {
@@ -109,6 +114,7 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
 }
 
 .hero-buy-btn:hover {
@@ -146,7 +152,6 @@ button {
 =======================Our Team==================== */
 
 .team {
-  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -160,6 +165,7 @@ button {
 .team-list {
 }
 .team-item {
+  background-color: #f4f4fd;
 }
 .team-image {
 }
@@ -193,6 +199,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-item {
 }
