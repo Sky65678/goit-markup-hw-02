@@ -46,7 +46,7 @@ span {
   font-family: "Raleway", sans-serif;
 }
 
-.header-logo-color {
+.header-logo-studio {
   color: #2e2f42;
 }
 
@@ -162,7 +162,7 @@ span {
   background-color: #ffffff;
 }
 .team-item {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 .team-image {
 }
@@ -230,4 +230,8 @@ span {
 
 .footer {
   background-color: #2e2f42;
+}
+
+.footer-logo-studio {
+  color: #f4f4fd;
 }
